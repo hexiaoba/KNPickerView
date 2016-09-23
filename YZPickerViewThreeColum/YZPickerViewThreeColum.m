@@ -66,29 +66,37 @@ static CGFloat const DayPickerShowDimissAnimationDuration = 0.5f;
     self.pickerView.dataSource = self;
     [self addSubview:self.pickerView];
 }
-
 - (void)setOneContents:(NSArray *)oneContents {
     _oneContents = oneContents;
-    if (!oneContents.count) { return;}
+    if (oneContents.count) {
+        self.selectedOneColum = oneContents[0];
+    } else {
+        self.selectedOneColum = @"";
+    }
     
-    self.selectedOneColum = oneContents[0];
     [self.pickerView reloadComponent:0];
 }
 
 -(void)setTwoContents:(NSArray *)twoContents {
     _twoContents = twoContents;
-    if (!twoContents.count) { return; }
+    if (twoContents.count) {
+        self.selectedTwoColum = twoContents[0];
+    }else {
+        self.selectedTwoColum = @"";
+    }
     
-    self.selectedTwoColum = twoContents[0];
     [self.pickerView reloadComponent:1];
 }
 
 - (void)setThreeContents:(NSArray *)threeContents {
     _threeContents = threeContents;
     
-    if (!threeContents.count) { return; }
+    if (threeContents.count) {
+        self.selectedThreeColum = threeContents[0];
+    }else {
+        self.selectedThreeColum = @"";
+    }
     
-    self.selectedThreeColum = threeContents[0];
     [self.pickerView reloadComponent:2];
 }
 
