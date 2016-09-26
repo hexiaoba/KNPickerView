@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "8A1957045F915734D32B6018AB8608C5B6235817",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "199CE078192184AAD8A829F9CE288C0106EBFEA4" : 9223372036854775807,
+    "8A1957045F915734D32B6018AB8608C5B6235817" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "23C62ABF-67AD-4DDE-8EA0-828452B222F9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "199CE078192184AAD8A829F9CE288C0106EBFEA4" : "",
+    "8A1957045F915734D32B6018AB8608C5B6235817" : "YZPickerViewThreeColum\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "YKNPickerView",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "YKNPickerView.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hexiaoba\/HyPopMenuView.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "199CE078192184AAD8A829F9CE288C0106EBFEA4"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hexiaoba\/YZPickerViewThreeColum.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8A1957045F915734D32B6018AB8608C5B6235817"
+    }
+  ]
+}

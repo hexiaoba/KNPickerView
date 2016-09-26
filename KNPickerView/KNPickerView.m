@@ -6,7 +6,7 @@
 //  Copyright (c) 2015年 何凯楠. All rights reserved.
 //
 
-#import "YZPickerViewThreeColum.h"
+#import "KNPickerView.h"
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -14,7 +14,7 @@
 static CGFloat const DayPickerViewHeight = 246.f;
 static CGFloat const DayPickerShowDimissAnimationDuration = 0.5f;
 
-@interface YZPickerViewThreeColum()<UIPickerViewDataSource,UIPickerViewDelegate>
+@interface KNPickerView()<UIPickerViewDataSource,UIPickerViewDelegate>
 
 @property (nonatomic , strong) UIPickerView *pickerView;
 
@@ -26,7 +26,7 @@ static CGFloat const DayPickerShowDimissAnimationDuration = 0.5f;
 
 @end
 
-@implementation YZPickerViewThreeColum
+@implementation KNPickerView
 
 - (instancetype)initWithFrame:(CGRect)frame
 {

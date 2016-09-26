@@ -13,11 +13,11 @@
 		5DB3B5E31D6C441600B6EFE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB3B5E11D6C441600B6EFE5 /* Main.storyboard */; };
 		5DB3B5E51D6C441600B6EFE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5DB3B5E41D6C441600B6EFE5 /* Assets.xcassets */; };
 		5DB3B5E81D6C441600B6EFE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DB3B5E61D6C441600B6EFE5 /* LaunchScreen.storyboard */; };
-		5DB3B5F11D6C442200B6EFE5 /* YZPickerViewThreeColum.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3B5F01D6C442200B6EFE5 /* YZPickerViewThreeColum.m */; };
+		5DB3B5F11D6C442200B6EFE5 /* KNPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DB3B5F01D6C442200B6EFE5 /* KNPickerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		5DB3B5D51D6C441600B6EFE5 /* YZPickerViewThreeColum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YZPickerViewThreeColum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DB3B5D51D6C441600B6EFE5 /* KNPickerView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KNPickerView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DB3B5D91D6C441600B6EFE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5DB3B5DB1D6C441600B6EFE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5DB3B5DC1D6C441600B6EFE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -27,8 +27,8 @@
 		5DB3B5E41D6C441600B6EFE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5DB3B5E71D6C441600B6EFE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5DB3B5E91D6C441600B6EFE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5DB3B5EF1D6C442200B6EFE5 /* YZPickerViewThreeColum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPickerViewThreeColum.h; sourceTree = "<group>"; };
-		5DB3B5F01D6C442200B6EFE5 /* YZPickerViewThreeColum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPickerViewThreeColum.m; sourceTree = "<group>"; };
+		5DB3B5EF1D6C442200B6EFE5 /* KNPickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KNPickerView.h; sourceTree = "<group>"; };
+		5DB3B5F01D6C442200B6EFE5 /* KNPickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KNPickerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +53,7 @@
 		5DB3B5D61D6C441600B6EFE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5DB3B5D51D6C441600B6EFE5 /* YZPickerViewThreeColum.app */,
+				5DB3B5D51D6C441600B6EFE5 /* KNPickerView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,8 +61,8 @@
 		5DB3B5D71D6C441600B6EFE5 /* YZPickerViewThreeColum */ = {
 			isa = PBXGroup;
 			children = (
-				5DB3B5EF1D6C442200B6EFE5 /* YZPickerViewThreeColum.h */,
-				5DB3B5F01D6C442200B6EFE5 /* YZPickerViewThreeColum.m */,
+				5DB3B5EF1D6C442200B6EFE5 /* KNPickerView.h */,
+				5DB3B5F01D6C442200B6EFE5 /* KNPickerView.m */,
 				5DB3B5DB1D6C441600B6EFE5 /* AppDelegate.h */,
 				5DB3B5DC1D6C441600B6EFE5 /* AppDelegate.m */,
 				5DB3B5DE1D6C441600B6EFE5 /* ViewController.h */,
@@ -87,9 +87,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5DB3B5D41D6C441600B6EFE5 /* YZPickerViewThreeColum */ = {
+		5DB3B5D41D6C441600B6EFE5 /* KNPickerView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5DB3B5EC1D6C441600B6EFE5 /* Build configuration list for PBXNativeTarget "YZPickerViewThreeColum" */;
+			buildConfigurationList = 5DB3B5EC1D6C441600B6EFE5 /* Build configuration list for PBXNativeTarget "KNPickerView" */;
 			buildPhases = (
 				5DB3B5D11D6C441600B6EFE5 /* Sources */,
 				5DB3B5D21D6C441600B6EFE5 /* Frameworks */,
@@ -99,9 +99,9 @@
 			);
 			dependencies = (
 			);
-			name = YZPickerViewThreeColum;
+			name = KNPickerView;
 			productName = YZPickerViewThreeColum;
-			productReference = 5DB3B5D51D6C441600B6EFE5 /* YZPickerViewThreeColum.app */;
+			productReference = 5DB3B5D51D6C441600B6EFE5 /* KNPickerView.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -118,7 +118,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5DB3B5D01D6C441600B6EFE5 /* Build configuration list for PBXProject "YZPickerViewThreeColum" */;
+			buildConfigurationList = 5DB3B5D01D6C441600B6EFE5 /* Build configuration list for PBXProject "KNPickerView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -131,7 +131,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5DB3B5D41D6C441600B6EFE5 /* YZPickerViewThreeColum */,
+				5DB3B5D41D6C441600B6EFE5 /* KNPickerView */,
 			);
 		};
 /* End PBXProject section */
@@ -157,7 +157,7 @@
 				5DB3B5E01D6C441600B6EFE5 /* ViewController.m in Sources */,
 				5DB3B5DD1D6C441600B6EFE5 /* AppDelegate.m in Sources */,
 				5DB3B5DA1D6C441600B6EFE5 /* main.m in Sources */,
-				5DB3B5F11D6C442200B6EFE5 /* YZPickerViewThreeColum.m in Sources */,
+				5DB3B5F11D6C442200B6EFE5 /* KNPickerView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,7 +290,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5DB3B5D01D6C441600B6EFE5 /* Build configuration list for PBXProject "YZPickerViewThreeColum" */ = {
+		5DB3B5D01D6C441600B6EFE5 /* Build configuration list for PBXProject "KNPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB3B5EA1D6C441600B6EFE5 /* Debug */,
@@ -299,13 +299,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5DB3B5EC1D6C441600B6EFE5 /* Build configuration list for PBXNativeTarget "YZPickerViewThreeColum" */ = {
+		5DB3B5EC1D6C441600B6EFE5 /* Build configuration list for PBXNativeTarget "KNPickerView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5DB3B5ED1D6C441600B6EFE5 /* Debug */,
 				5DB3B5EE1D6C441600B6EFE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

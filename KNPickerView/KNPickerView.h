@@ -7,18 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
-@class YZPickerViewThreeColum;
-@protocol YZPickerViewThreeColumDelegate <NSObject>
+@class KNPickerView;
+@protocol KNPickerViewDelegate <NSObject>
 
 @optional
 
-- (void)pickerView:(YZPickerViewThreeColum *)pickerView didSelectOneColumResult:(NSString *)OneColumResult twoColumResult:(NSString *)twoColumResult threeColumResult:(NSString *)threeColumResult inComponent:(NSInteger)component;
+- (void)pickerView:(KNPickerView *)pickerView didSelectOneColumResult:(NSString *)OneColumResult twoColumResult:(NSString *)twoColumResult threeColumResult:(NSString *)threeColumResult inComponent:(NSInteger)component;
 
-- (void)pickerView:(YZPickerViewThreeColum *)pickerView getOneCloumResult:(NSString *)oneColumResult twoColumResult:(NSString *)twoColumResult threeColumResult:(NSString *)threeColumResult;
+- (void)pickerView:(KNPickerView *)pickerView getOneCloumResult:(NSString *)oneColumResult twoColumResult:(NSString *)twoColumResult threeColumResult:(NSString *)threeColumResult;
 
 @end
 
-@interface YZPickerViewThreeColum : UIView
+@interface KNPickerView : UIView
 
 /**
  第一列数据，要是只有一列，则只传oneContents
@@ -33,7 +33,7 @@
  */
 @property (nonatomic , strong) NSArray *threeContents;
 
-@property (nonatomic , weak) id <YZPickerViewThreeColumDelegate> delegate;
+@property (nonatomic , weak) id <KNPickerViewDelegate> delegate;
 
 /**
  取消按钮
