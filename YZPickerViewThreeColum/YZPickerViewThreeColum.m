@@ -51,6 +51,7 @@ static CGFloat const DayPickerShowDimissAnimationDuration = 0.5f;
     [dismissBtn setTitleColor:[UIColor redColor] forState:UIControlStateNormal];
     dismissBtn.titleLabel.font = [UIFont systemFontOfSize:14.f];
     [aboveBgView addSubview:dismissBtn];
+    self.cancelButton = dismissBtn;
     
     UIButton *sureBtn = [UIButton buttonWithType:UIButtonTypeCustom];
     sureBtn.frame = CGRectMake(SCREEN_WIDTH - 50, 0, 50, 30);
@@ -59,6 +60,7 @@ static CGFloat const DayPickerShowDimissAnimationDuration = 0.5f;
     sureBtn.titleLabel.font = [UIFont systemFontOfSize:14.f];
     [sureBtn addTarget:self action:@selector(sureBtnClick) forControlEvents:UIControlEventTouchUpInside];
     [aboveBgView addSubview:sureBtn];
+    self.sureButton = sureBtn;
 
     self.pickerView = [[UIPickerView alloc] initWithFrame:CGRectMake(0, 30, SCREEN_WIDTH, 216)];
     self.pickerView.backgroundColor = [[UIColor whiteColor] colorWithAlphaComponent:1];
@@ -103,7 +105,14 @@ static CGFloat const DayPickerShowDimissAnimationDuration = 0.5f;
 #pragma mark- UIPickerViewDataSource
 - (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
 {
-    return 3;
+    if (self.oneContents && !self.twoContents && !self.threeContents) {
+        return 1;
+    } else if (self.oneContents && self.twoContents && !self.threeContents) {
+        return 2;
+    } else if (self.oneContents && self.twoContents && self.threeContents) {
+        return 3;
+    }
+    return 0;
 }
 
 - (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
