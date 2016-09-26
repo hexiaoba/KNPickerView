@@ -7,9 +7,9 @@
 //
 
 #import "ViewController.h"
-#import "YZPickerViewThreeColum.h"
+#import "KNPickerView.h"
 
-@interface ViewController ()<YZPickerViewThreeColumDelegate>
+@interface ViewController ()<KNPickerViewDelegate>
 
 @end
 
@@ -27,7 +27,7 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-    YZPickerViewThreeColum *pickerView = [[YZPickerViewThreeColum alloc] init];
+    KNPickerView *pickerView = [[KNPickerView alloc] init];
     pickerView.delegate = self;
     pickerView.oneContents = @[@"北京市", @"上海市", @"深圳市"];
     pickerView.twoContents = @[@"北京市", @"上海市", @"深圳市"];
@@ -35,7 +35,7 @@
     [pickerView show];
 }
 
-- (void)pickerView:(YZPickerViewThreeColum *)pickerView getOneCloumResult:(NSString *)oneColumResult twoColumResult:(NSString *)twoColumResult threeColumResult:(NSString *)threeColumResult {
+- (void)pickerView:(KNPickerView *)pickerView getOneCloumResult:(NSString *)oneColumResult twoColumResult:(NSString *)twoColumResult threeColumResult:(NSString *)threeColumResult {
     NSLog(@"%@ %@ %@", oneColumResult, twoColumResult, threeColumResult);
 }
 

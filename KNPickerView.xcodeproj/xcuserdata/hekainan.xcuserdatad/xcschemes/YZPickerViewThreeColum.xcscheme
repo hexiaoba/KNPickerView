@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5DB3B5D41D6C441600B6EFE5"
-               BuildableName = "YZPickerViewThreeColum.app"
-               BlueprintName = "YZPickerViewThreeColum"
-               ReferencedContainer = "container:YZPickerViewThreeColum.xcodeproj">
+               BuildableName = "KNPickerView.app"
+               BlueprintName = "KNPickerView"
+               ReferencedContainer = "container:KNPickerView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DB3B5D41D6C441600B6EFE5"
-            BuildableName = "YZPickerViewThreeColum.app"
-            BlueprintName = "YZPickerViewThreeColum"
-            ReferencedContainer = "container:YZPickerViewThreeColum.xcodeproj">
+            BuildableName = "KNPickerView.app"
+            BlueprintName = "KNPickerView"
+            ReferencedContainer = "container:KNPickerView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DB3B5D41D6C441600B6EFE5"
-            BuildableName = "YZPickerViewThreeColum.app"
-            BlueprintName = "YZPickerViewThreeColum"
-            ReferencedContainer = "container:YZPickerViewThreeColum.xcodeproj">
+            BuildableName = "KNPickerView.app"
+            BlueprintName = "KNPickerView"
+            ReferencedContainer = "container:KNPickerView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5DB3B5D41D6C441600B6EFE5"
-            BuildableName = "YZPickerViewThreeColum.app"
-            BlueprintName = "YZPickerViewThreeColum"
-            ReferencedContainer = "container:YZPickerViewThreeColum.xcodeproj">
+            BuildableName = "KNPickerView.app"
+            BlueprintName = "KNPickerView"
+            ReferencedContainer = "container:KNPickerView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
