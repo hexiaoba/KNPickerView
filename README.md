@@ -1,4 +1,4 @@
-# KNPickerViewColum
+# KNPickerView
 ![Image text](https://github.com/hexiaoba/YZPickerViewThreeColum/blob/master/result.gif)
 ##用法
 ```Objective-C
