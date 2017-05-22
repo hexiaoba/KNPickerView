@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>KNPickerViewCarthage.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>YZPickerViewThreeColum.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>5D2223471ED2EBC500CDB603</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>5DB3B5D41D6C441600B6EFE5</key>
 		<dict>
 			<key>primary</key>
