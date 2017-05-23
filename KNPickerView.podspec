@@ -3,9 +3,9 @@ s.name             = "KNPickerView"
 s.version          = "1.0.1"  
 s.summary          = "A picker view used on iOS."  
 s.homepage         = "https://github.com/hexiaoba/KNPickerView"  
-s.description  = <<-DESC 
-                       a picker view used on iOS   
-                   DESC
+#s.description  = <<-DESC 
+#                       a picker view used on iOS   
+#                   DESC
 # s.screenshots      = "www.example.com/screenshots_1", "www.example.com/screenshots_2"  
 s.license         = { :type => "MIT", :file => "LICENSE" } 
 s.author           = { "hexiaoba" => "hkn35135@163.com" }  
@@ -14,12 +14,9 @@ s.source           = { :git => "https://github.com/hexiaoba/KNPickerView.git", :
 
 s.platform     = :ios, '8.0'  
 # s.ios.deployment_target = '8.0'  
-# s.osx.deployment_target = '10.10'  
 s.requires_arc = true  
 
-s.source_files = 'KNPickerView/KNPickerView/*.{h,m}'  
+s.source_files = 'KNPickerView/*.{h,m}'  
 # s.resources = 'Assets'  
 
-# s.ios.exclude_files = 'Classes/osx'  
-# s.osx.exclude_files = 'Classes/ios'  
-
+end
