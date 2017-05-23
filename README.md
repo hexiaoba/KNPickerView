@@ -19,6 +19,10 @@ github "hexiaoba/KNPickerView"
 ```
 carthage update
 ```
+- 安装好后只需要在对应 Target 中的 Build Setting 中的 Framework Search Path 项加入以下路径
+- ```$(SRCROOT)/Carthage/Build/iOS```
+
+导入头文件 ```#import <KNPickerViewCarthage/KNPickerView.h>```就可以使用了
 
 ### 示例代码
 ```Objective-C
