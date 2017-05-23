@@ -1,6 +1,26 @@
 # KNPickerView
 ![Image text](https://github.com/hexiaoba/YZPickerViewThreeColum/blob/master/result.gif)
-##用法
+## 使用 How to Use it
+### Carthage<br> 
+<a href="https://github.com/Carthage/Carthage">Carthage</a> 也是一个很好的管理三方框架的工具<br>
+#### 安装Carthage
+- 你可以使用<a href="https://brew.sh/">Homebrew</a>来安装Carthage
+```
+$ brew update
+$ brew install carthage
+```
+- 还可以下载Carthage.pkg 文件<a href="https://github.com/Carthage/Carthage/releases">release</a>来安装Carthage<br>
+
+安装Carthage之后，在你的工程里创建一个Cartfile文件 ,并在里面写上下面这句话<br>
+```
+github "hexiaoba/KNPickerView"
+```
+然后在终端里执行
+```
+carthage update
+```
+
+### 示例代码
 ```Objective-C
     YZPickerViewThreeColum *pickerView = [[YZPickerViewThreeColum alloc] init];
     pickerView.delegate = self;
@@ -12,14 +32,14 @@
     pickerView.threeContents = @[@"东城区", @"闵行区", @"南山区"];
     [pickerView show];
 ```
-###回调方法
+### 回调方法
 ```Objective-C
 - (void)pickerView:(YZPickerViewThreeColum *)pickerView getOneCloumResult:(NSString *)oneColumResult twoColumResult:(NSString *)twoColumResult threeColumResult:(NSString *)threeColumResult {
     NSLog(@"%@ %@ %@", oneColumResult, twoColumResult, threeColumResult);
 }
 ```
 
-####补充说明
+#### 补充说明
 1、属性cancelButton，可以设置取消按钮的样式</br>
 2、属性sureButton， 可是设置确定按钮的样式</br>
 
