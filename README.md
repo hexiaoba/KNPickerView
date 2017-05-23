@@ -2,14 +2,14 @@
 ![Image text](https://github.com/hexiaoba/YZPickerViewThreeColum/blob/master/result.gif)
 ## 使用 How to Use it
 ### Carthage<br> 
-<a href="https://github.com/Carthage/Carthage">Carthage</a> 也是一个很好的管理三方框架的工具<br>
+[Carthage](https://github.com/Carthage/Carthage) 也是一个很好的管理三方框架的工具<br>
 #### 安装Carthage
-- 你可以使用<a href="https://brew.sh/">Homebrew</a>来安装Carthage
+- 你可以使用[Homebrew](https://brew.sh/)来安装Carthage
 ```
 $ brew update
 $ brew install carthage
 ```
-- 还可以下载Carthage.pkg 文件<a href="https://github.com/Carthage/Carthage/releases">release</a>来安装Carthage<br>
+- 还可以下载Carthage.pkg 文件[release](https://github.com/Carthage/Carthage/releases)来安装Carthage<br>
 
 安装Carthage之后，在你的工程里创建一个Cartfile文件 ,并在里面写上下面这句话<br>
 ```
