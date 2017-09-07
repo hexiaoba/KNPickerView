@@ -1,9 +1,11 @@
 # KNPickerView
 ![Image text](https://github.com/hexiaoba/YZPickerViewThreeColum/blob/master/result.gif)
 ## 使用 How to Use it
-### Carthage<br> 
+### 1、pod
+``` pod 'KNPickerView' ```
+### 2、Carthage<br> 
 [Carthage](https://github.com/Carthage/Carthage) 也是一个很好的管理三方框架的工具<br>
-#### 安装Carthage
+####  安装Carthage
 - 你可以使用[Homebrew](https://brew.sh/)来安装Carthage
 ```
 $ brew update
